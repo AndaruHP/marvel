@@ -1,13 +1,17 @@
+// import "./App.css";
 import React from "react";
-import "./App.css";
-import CharacterMain from "./Components/CharacterMain";
+import CharacterList from "./Components/Characters/CharactersList";
+import ShowComic from "./Components/Characters/showComic";
+import ComicsList from "./Components/Characters/ComicsList";
+import CharacterMain from "./Components/Characters/CharacterMain";
 
 function App() {
-  // const page = 79;
-
   return (
-    <div className="justify-items-center">
-      <CharacterMain />
+    <div className="App">
+      <CharacterList />
+      {/* <ShowComic /> */}
+      {/* <ComicsList /> */}
+      {/* <CharacterMain /> */}
     </div>
   );
 }
