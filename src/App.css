@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  
+}
+
+.App h1 {
+  margin-right: 200px;
+  display: inline-block;
+
 }
 
 .App-logo {
@@ -35,4 +42,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.App ul li {
+  display: inline-block;
+  margin-left: 50px;
+  
+}
+
+.App ul li:last-child {
+  margin-right: 0;
+}
+
+.App ul li a {
+  text-decoration: none;
+}
+
+.App .logo {
+  margin-right: 20px;
 }
