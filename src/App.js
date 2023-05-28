@@ -5,6 +5,7 @@ import CharacterList from "./Components/Character/CharacterList";
 import ComicList from "./Components/Comic/ComicList";
 import EventList from "./Components/Event/EventList";
 import SeriesList from "./Components/Series/SeriesList";
+import AboutUs from "./src-aboutus/App";
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
           <Route path="/comics" element={<ComicList />} />
           <Route path="/events" element={<EventList />} />
           <Route path="/series" element={<SeriesList />} />
-          
+          <Route path="/aboutus" element={<AboutUs />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.card-container {
+.kartu-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -14,7 +14,7 @@
   align-items: flex-start;
 }
 
-h1 {
+.judul {
   font-family: "Poppins", sans-serif;
   font-size: 5em;
   color: #d83133;
@@ -28,7 +28,7 @@ h1 {
   padding: 10px;
 }
 
-.card {
+.kartu {
   position: relative;
   margin-top: 50px;
   display: flex;
@@ -41,7 +41,7 @@ h1 {
   box-shadow: 10px 20px 0px rgba(0, 0, 0, 0.705);
 }
 
-.card .circle {
+.kartu .circle {
   position: absolute;
   top: 0;
   left: 0;
@@ -51,7 +51,7 @@ h1 {
   overflow: hidden;
 }
 
-.card .circle::before {
+.kartu .circle::before {
   content: "";
   position: absolute;
   top: 0;
@@ -63,12 +63,12 @@ h1 {
   transition: 0.5s;
 }
 
-.card .circle:hover:before {
+.kartu .circle:hover:before {
   background: #f78f3f;
   clip-path: circle(400px at center);
 }
 
-.card img {
+.kartu img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -78,12 +78,12 @@ h1 {
   transition: 0.5s;
 }
 
-.card:hover img {
+.kartu:hover img {
   left: 72%;
   height: 300px;
 }
 
-.card .content {
+.kartu .content {
   position: relative;
   width: 50%;
   left: 20%;
@@ -93,13 +93,13 @@ h1 {
   visibility: hidden;
 }
 
-.card:hover .content {
+.kartu:hover .content {
   left: 0;
   opacity: 1;
   visibility: visible;
 }
 
-.card .content h2 {
+.kartu .content h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 2em;
@@ -107,11 +107,11 @@ h1 {
   margin-bottom: 5px;
 }
 
-.card .content p {
+.kartu .content p {
   color: #fff;
 }
 
-.card .content a {
+.kartu .content a {
   position: relative;
   color: #fff;
   padding: 10px 20px;
@@ -125,20 +125,20 @@ h1 {
 }
 
 @media (max-width: 991px) {
-  .card {
+  .kartu {
     width: auto;
     max-width: 350px;
     align-items: flex-start;
   }
-  .card:hover {
+  .kartu:hover {
     height: 600px;
   }
-  .card .content {
+  .kartu .content {
     width: 100%;
     left: 0;
     padding: 40px;
   }
-  .card:hover img {
+  .kartu:hover img {
     top: 70%;
     left: 50%;
     height: 320px;
@@ -146,7 +146,7 @@ h1 {
 }
 
 @media (max-width: 420px) {
-  .card .content {
+  .kartu .content {
     padding: 20px;
   }
 }

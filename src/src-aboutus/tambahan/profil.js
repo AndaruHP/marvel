@@ -11,9 +11,9 @@ const CardProfile = () => {
       className="background"
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
-      <h1>About Us</h1>
-      <div className="card-container">
-        <div className="card">
+      <h1 className="judul">About Us</h1>
+      <div className="kartu-container">
+        <div className="kartu">
           <div className="circle"></div>
           <img src={andaru} alt="Profile" className="profile-image" />
           <div className="content">
@@ -22,7 +22,7 @@ const CardProfile = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="kartu">
           <div className="circle"></div>
           <img src={andre} alt="Profile" className="profile-image" />
           <div className="content">
@@ -35,7 +35,7 @@ const CardProfile = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="kartu">
           <div className="circle"></div>
           <img src={ligat} alt="Profile" className="profile-image" />
           <div className="content">
@@ -44,7 +44,7 @@ const CardProfile = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="kartu">
           <div className="circle"></div>
           <img src={sammy} alt="Profile" className="profile-image" />
           <div className="content">
