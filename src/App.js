@@ -37,7 +37,9 @@ function Navbar() {
   const showNavbar = !(location.pathname === "/");
 
   return (
+    
     <nav style={{ display: showNavbar ? "block" : "none" }}>
+      <div className="Navbar">
       <ul>
         <h1>Marvel Wiki</h1>
         <li>
@@ -56,7 +58,9 @@ function Navbar() {
           <Link to="/aboutus">About Us</Link>
         </li>
       </ul>
+      </div>
     </nav>
+    
   );
 }
 
