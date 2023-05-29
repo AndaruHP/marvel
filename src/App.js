@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import backgroundImg from "./src-aboutus/assets/gambare.jpg";
 import CharacterList from "./Components/Character/CharacterList";
 import ComicList from "./Components/Comic/ComicList";
 import EventList from "./Components/Event/EventList";
@@ -11,26 +12,28 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <div className="Navbar">
         <nav>
           <ul>
-          <h1>Marvel Wiki</h1>
-            <li>
-              <Link to="/">Character</Link>
-            </li>
-            <li>
-              <Link to="/comics">Comics</Link>
-            </li>
-            <li>
-              <Link to="/events">Events</Link>
-            </li>
-            <li>
-              <Link to="/series">Series</Link>
-            </li>
-            <li>
-              <Link to="/aboutus">About Us</Link>
-            </li>
-          </ul>
-        </nav>
+            <h1>Marvel Wiki</h1>
+              <li>
+                <Link to="/">Character</Link>
+              </li>
+              <li>
+                <Link to="/comics">Comics</Link>
+              </li>
+              <li>
+                <Link to="/events">Events</Link>
+              </li>
+              <li>
+                <Link to="/series">Series</Link>
+              </li>
+              <li>
+                <Link to="/aboutus">About Us</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <Routes>
           <Route path="/" element={<CharacterList />} />
           <Route path="/comics" element={<ComicList />} />

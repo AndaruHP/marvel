@@ -65,7 +65,7 @@ function SeriesList() {
     <div>
       <input
         type="text"
-        placeholder="search character"
+        placeholder="Search Series..."
         value={input}
         onChange={(event) => setInputHandler(event.target.value)}
       />

@@ -65,7 +65,7 @@ function EventList() {
     <div>
       <input
         type="text"
-        placeholder="search character"
+        placeholder="Search Events..."
         value={input}
         onChange={(event) => setInputHandler(event.target.value)}
       />

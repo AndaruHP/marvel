@@ -64,7 +64,7 @@ function ComicList() {
     <div>
       <input
         type="text"
-        placeholder="search Comic"
+        placeholder="Search Comic..."
         value={input}
         onChange={(event) => setInputHandler(event.target.value)}
       />

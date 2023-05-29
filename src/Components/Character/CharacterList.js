@@ -65,7 +65,7 @@ function CharacterList() {
     <div>
       <input
         type="text"
-        placeholder="search character"
+        placeholder="Search Character..."
         value={input}
         onChange={(event) => setInputHandler(event.target.value)}
       />

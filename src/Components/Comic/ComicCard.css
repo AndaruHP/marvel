@@ -41,7 +41,6 @@
 .popup-content {
   position: relative;
   max-width: 80%;
-  max: 80%;
   overflow: auto;
   background-color: #fff;
   padding: 20px;
