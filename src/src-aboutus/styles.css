@@ -40,7 +40,7 @@
   align-items: center;
   border-radius: 20px;
   transition: 0.5s;
-  box-shadow: 10px 20px 0px rgba(0, 0, 0, 0.705);
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.8);
 }
 
 .kartu .circle {
