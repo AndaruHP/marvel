@@ -19,7 +19,7 @@ const CardProfile = () => {
           <img src={andaru} alt="Profile" className="profile-image" />
           <div className="content">
             <h2>Andaru Hymawan Primayudha</h2>
-            <p>Gabut gak tau mau isi apa, mau beli truk.</p>
+            <p>Yang penting apa? Iyap GENSET!!!</p>
           </div>
         </div>
 
