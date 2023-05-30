@@ -41,7 +41,9 @@ function Navbar() {
     <nav style={{ display: showNavbar ? "block" : "none" }}>
       <div className="Navbar">
       <ul>
-        <h1>Marvel Wiki</h1>
+        <Link to="/">
+            <h1>Marvel Wiki</h1>
+          </Link>
         <li>
           <Link to="/characters">Character</Link>
         </li>
