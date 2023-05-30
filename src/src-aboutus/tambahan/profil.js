@@ -61,7 +61,7 @@ const CardProfile = () => {
           </div>
         </div>
       </div>
-      <br/>
+      <br />
       <Footer />
     </div>
   );
