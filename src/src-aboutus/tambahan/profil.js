@@ -1,6 +1,6 @@
 import React from "react";
 import backgroundImg from "../assets/gambare.jpg";
-import andaru from "../assets/andaru.jpeg";
+import andaru from "../assets/andaru.jpg";
 import andre from "../assets/andre.jpeg";
 import ligat from "../assets/ligat.jpeg";
 import sammy from "../assets/sammy.jpeg";
