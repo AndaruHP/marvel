@@ -60,7 +60,6 @@
 .Navbar ul li a:hover {
   color: black;
   background-color: #852222;
-  
 }
 
 @media (max-width: 768px) {
@@ -81,15 +80,15 @@
   .App ul li:last-child {
     margin-bottom: 0;
   }
-  
+
   .Navbar ul {
     flex-wrap: wrap;
   }
-  
+
   .Navbar ul li {
     margin: 0.5rem;
   }
-  
+
   .Navbar ul li a {
     padding: 0.5rem;
   }
@@ -97,5 +96,4 @@
 .Navbar ul li a:hover {
   color: black;
   background-color: #852222;
-  
 }

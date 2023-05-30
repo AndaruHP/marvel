@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import EventPagination from "./EventPagination";
 import EventCard from "./EventCard";
-import "./EventList.css";
+import "../List.css";
 
 function EventList() {
   const [pageCount, setPagecount] = useState(0);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SeriesPagination from "./SeriesPagination";
 import SeriesCard from "./SeriesCard";
-import "./SeriesList.css";
+import "../List.css";
 
 function SeriesList() {
   const [pageCount, setPagecount] = useState(0);

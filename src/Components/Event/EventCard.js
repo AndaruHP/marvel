@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./EventCard.css";
+import "../Card.css";
 
 function EventCard(props) {
   const [isHovered, setIsHovered] = useState(false);

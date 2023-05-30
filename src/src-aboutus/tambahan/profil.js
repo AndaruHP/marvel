@@ -18,7 +18,7 @@ const CardProfile = () => {
           <img src={andaru} alt="Profile" className="profile-image" />
           <div className="content">
             <h2>Andaru Hymawan Primayudha</h2>
-            <p>.....................</p>
+            <p>Gabut gak tau mau isi apa, mau beli truk.</p>
           </div>
         </div>
 
@@ -40,7 +40,10 @@ const CardProfile = () => {
           <img src={ligat} alt="Profile" className="profile-image" />
           <div className="content">
             <h2>Maha Ligat Dewa Cindra</h2>
-            <p> Orang, (atau manusia?) yang memiliki nama panggilan universal. Penyuka wanita, dengan tambahan kuping rubah atau serigala.
+            <p>
+              {" "}
+              Orang, (atau manusia?) yang memiliki nama panggilan universal.
+              Penyuka wanita, dengan tambahan kuping rubah atau serigala.
             </p>
           </div>
         </div>
@@ -50,7 +53,10 @@ const CardProfile = () => {
           <img src={sammy} alt="Profile" className="profile-image" />
           <div className="content">
             <h2>Sammy Ghoutan Sitompul</h2>
-            <p>Bisa dipanggil Sammy. Dia adalah seorang yang jago bermain Mobile Legend dan waifu dia Ichinose Chizuru</p>
+            <p>
+              Bisa dipanggil Sammy. Dia adalah seorang yang jago bermain Mobile
+              Legend dan waifu dia Ichinose Chizuru
+            </p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPaginate from "react-paginate";
-import "./CharacterPagination.css";
+import "../Pagination.css";
 
 function CharacterPagination(props) {
   const { pageCount, handlePageClick } = props;

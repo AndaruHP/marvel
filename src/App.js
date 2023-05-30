@@ -27,6 +27,7 @@ function App() {
           <Route path="/series" element={<SeriesList />} />
           <Route path="/aboutus" element={<AboutUs />} />
         </Routes>
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );
@@ -37,32 +38,30 @@ function Navbar() {
   const showNavbar = !(location.pathname === "/");
 
   return (
-    
     <nav style={{ display: showNavbar ? "block" : "none" }}>
       <div className="Navbar">
-      <ul>
-        <Link to="/">
+        <ul>
+          <Link to="/">
             <h1>Marvel Wiki</h1>
           </Link>
-        <li>
-          <Link to="/characters">Character</Link>
-        </li>
-        <li>
-          <Link to="/comics">Comics</Link>
-        </li>
-        <li>
-          <Link to="/events">Events</Link>
-        </li>
-        <li>
-          <Link to="/series">Series</Link>
-        </li>
-        <li>
-          <Link to="/aboutus">About Us</Link>
-        </li>
-      </ul>
+          <li>
+            <Link to="/characters">Character</Link>
+          </li>
+          <li>
+            <Link to="/comics">Comics</Link>
+          </li>
+          <li>
+            <Link to="/events">Events</Link>
+          </li>
+          <li>
+            <Link to="/series">Series</Link>
+          </li>
+          <li>
+            <Link to="/aboutus">About Us</Link>
+          </li>
+        </ul>
       </div>
     </nav>
-    
   );
 }
 

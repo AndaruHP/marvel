@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ComicPagination from "./ComicPagination";
 import ComicCard from "./ComicCard";
-import "./ComicList.css";
+import "../List.css";
 
 function ComicList() {
   const [pageCount, setPagecount] = useState(0);

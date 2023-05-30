@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ComicCard.css";
+import "../Card.css";
 
 function ComicCard(props) {
   const [isHovered, setIsHovered] = useState(false);

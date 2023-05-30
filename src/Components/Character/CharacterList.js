@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import CharacterPagination from "./CharacterPagination";
 import CharacterCard from "./CharacterCard";
-import "./CharacterList.css";
+import "../List.css";
+import Footer from "../Footer";
 
 function CharacterList() {
   const [pageCount, setPagecount] = useState(0);
@@ -83,6 +84,7 @@ function CharacterList() {
         pageCount={pageCount}
         handlePageClick={handlePageClick}
       />
+      <Footer />
     </div>
   );
 }
