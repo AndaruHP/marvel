@@ -38,8 +38,14 @@
   cursor: pointer;
 }
 
+.homepage-container button:hover {
+  background-color: #d63b2f;
+  font-weight: bold;
+}
+
 .homepage-container-p {
-  width: 50%;
+  width: 40%;
+  font-size: 1.2rem;
   /* justify-content: center; */
   margin: 0 auto;
 }
