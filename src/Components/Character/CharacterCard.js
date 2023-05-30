@@ -5,20 +5,28 @@ function CharacterCard(props) {
   const [isHovered, setIsHovered] = useState(false);
   const imageSize = "portrait_incredible";
   return (
-    <div
-      className="card"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <img
-        src={`${props.characterProps.path}/${imageSize}.${props.characterProps.extension}`}
-        alt={props.characterProps.name}
-      />
-      <h2>{props.characterProps.name}</h2>
-      <div className={`description ${isHovered ? "show" : "hide"}`}>
-        <p>{props.characterProps.description}</p>
+    
+      <div
+        className="card"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        <div className="zoom">
+          <div className="cards">
+          <img
+            src={`${props.characterProps.path}/${imageSize}.${props.characterProps.extension}`}
+            alt={props.characterProps.name}
+          />
+          <h2 style={{color: "white"}}>{props.characterProps.name}</h2>
+          </div>
+        </div>
+
+        <div className={`description ${isHovered ? "show" : "hide"}`}>
+          <p>{props.characterProps.description}</p>
+        </div>
+      
       </div>
-    </div>
+    
   );
 }
 

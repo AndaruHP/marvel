@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import EventPagination from "./EventPagination";
 import EventCard from "./EventCard";
 import "../List.css";
+import Footer from "../Footer";
 
 function EventList() {
   const [pageCount, setPagecount] = useState(0);
@@ -80,6 +81,7 @@ function EventList() {
         pageCount={pageCount}
         handlePageClick={handlePageClick}
       />
+      <Footer />
     </div>
   );
 }

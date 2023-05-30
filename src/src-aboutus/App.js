@@ -3,7 +3,13 @@ import "./styles.css";
 // import React, { useState } from 'react';
 
 function App() {
-  return <Profil />;
+  return (
+    <div>
+    <Profil />
+    </div>
+  )
+  
+  
 }
 
 export default App;

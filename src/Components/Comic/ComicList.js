@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ComicPagination from "./ComicPagination";
 import ComicCard from "./ComicCard";
 import "../List.css";
+import Footer from "../Footer";
 
 function ComicList() {
   const [pageCount, setPagecount] = useState(0);
@@ -79,6 +80,7 @@ function ComicList() {
         pageCount={pageCount}
         handlePageClick={handlePageClick}
       />
+      <Footer />
     </div>
   );
 }

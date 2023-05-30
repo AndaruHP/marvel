@@ -2,34 +2,29 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="mt-10">
-      <footer
-        className="text-center text-white"
-        style={{ backgroundColor: "#3f51b5" }}
+    <footer
+      className="fixed-bottom d-flex justify-content-center"
+      style={{ backgroundColor: "#ba0f2b", height: "10rem" }}
+    >
+      <div
+        className=""
+        style={{
+          marginTop: "1rem",
+        }}
       >
-        <section className="mb-5">
-          <div className="row d-flex justify-content-center">
-            <div className="col-lg-8">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                distinctio earum repellat quaerat voluptatibus placeat nam,
-                commodi optio pariatur est quia magnam eum harum corrupti dicta,
-                aliquam sequi voluptate quas.
-              </p>
-            </div>
-          </div>
-        </section>
-        <div
-          className="text-center p-3"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-        >
-          Data provided by Marvel.
-          <a class="text-white" href="https://marvel.com/">
-            © 2023 MARVEL
+        <div style={{ paddingTop: "6rem" }}>
+          <div style={{ color: "white" }}>©2023 All rights reserved.</div>
+          <a
+            className="text-white"
+            href="https://mdbootstrap.com/"
+            style={{ textDecoration: "none", color: "white" }}
+            target="_blank"
+          >
+            Marvel.com
           </a>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 }
 

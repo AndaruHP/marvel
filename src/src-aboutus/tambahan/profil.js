@@ -4,6 +4,7 @@ import andaru from "../assets/andaru.jpeg";
 import andre from "../assets/andre.jpeg";
 import ligat from "../assets/ligat.jpeg";
 import sammy from "../assets/sammy.jpeg";
+import Footer from "../../Components/Footer";
 
 const CardProfile = () => {
   return (
@@ -60,6 +61,8 @@ const CardProfile = () => {
           </div>
         </div>
       </div>
+      <br/>
+      <Footer />
     </div>
   );
 };

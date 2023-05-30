@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import SeriesPagination from "./SeriesPagination";
 import SeriesCard from "./SeriesCard";
 import "../List.css";
+import Footer from "../Footer";
 
 function SeriesList() {
   const [pageCount, setPagecount] = useState(0);
@@ -80,6 +81,7 @@ function SeriesList() {
         pageCount={pageCount}
         handlePageClick={handlePageClick}
       />
+      <Footer />
     </div>
   );
 }
